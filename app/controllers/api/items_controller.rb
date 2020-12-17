@@ -1,5 +1,5 @@
 class Api::ItemsController < ApplicationController
-  before_action :set_Restaurant
+  before_action :set_restaurant
   before_action :set_item, only: [:show, :update, :destroy]
 
   def index

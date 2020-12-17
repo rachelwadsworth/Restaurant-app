@@ -3,7 +3,8 @@ Rails.application.routes.draw do
 
   namespace :api do
     resources :restaurants do
-      resources :items
+      resources :items do
     end
   end
+end
 end
